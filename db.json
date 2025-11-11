@@ -1,0 +1,172 @@
+{
+  "profile": {
+    "name": "Vallerian Dava Dayoh",
+    "title": "Frontend-Developer",
+    "tagline": "Crafting elegant solutions through code",
+    "photo": "/profile.png",
+    "bio": "Passionate developer with 5+ years of experience in building scalable web applications. I love turning complex problems into simple, beautiful solutions.",
+    "location": "Airmadidi, Indonesia",
+    "email": "valleriandayoh @gmail.com",
+    "phone": "+62 858-2522-0451",
+    "birthdate": "2006-02-11",
+    "social": {
+      "github": "https://github.com/VallerianDayoh",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/elonmusk",
+      "instagram": "https://instagram.com/joshuadyh_"
+    }
+  },
+  "education": [
+    {
+      "id": 1,
+      "institution": "Universitas Klabat",
+      "degree": "Bachelor of Computer Science",
+      "field": "Information System",
+      "startDate": "2023-08",
+      "endDate": "2027-04",
+      "gpa": "3.85/4.00",
+      "description": "Focused on web development, data structures, and software architecture"
+    },
+    {
+      "id": 2,
+      "institution": "North Sulawesi Academy SLA Tompaso 2",
+      "degree": "HighSchool",
+      "field": "Science",
+      "startDate": "2020-05",
+      "endDate": "2023-04",
+      "gpa": null,
+      "description": "Focused on science subjects including physics, chemistry, and biology, with strong emphasis on analytical thinking and problem solving."
+    },
+    {
+      "id": 2,
+      "institution": "North Sulawesi Academy SLA Tompaso 2",
+      "degree": "Junior High School",
+      "field": "General Education",
+      "startDate": "2017-07",
+      "endDate": "2020-03",
+      "gpa": null,
+      "description": "Developed foundational knowledge in mathematics, science, and languages while building discipline, teamwork, and curiosity in learning."
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "React.js",
+      "category": "Frontend",
+      "level": 95
+    },
+    {
+      "id": 2,
+      "name": "TypeScript",
+      "category": "Frontend",
+      "level": 90
+    },
+    {
+      "id": 3,
+      "name": "AfterEffect",
+      "category": "Editing",
+      "level": 88
+    },
+    {
+      "id": 4,
+      "name": "Illustrator",
+      "category": "Editing",
+      "level": 85
+    },
+    {
+      "id": 5,
+      "name": "TailwindCSS",
+      "category": "Frontend",
+      "level": 92
+    },
+    {
+      "id": 6,
+      "name": "Docker",
+      "category": "DevOps",
+      "level": 80
+    },
+    {
+      "id": 7,
+      "name": "Git",
+      "category": "Tools",
+      "level": 93
+    },
+    {
+      "id": 8,
+      "name": "Canva",
+      "category": "Editing",
+      "level": 90
+    },
+    {
+      "id": 9,
+      "name": "Problem Solving",
+      "category": "Soft Skills",
+      "level": 95
+    },
+    {
+      "id": 10,
+      "name": "Team Collaboration",
+      "category": "Soft Skills",
+      "level": 90
+    },
+    {
+      "id": 11,
+      "name": "Figma",
+      "category": "Editing",
+      "level": 92
+    },
+    {
+      "id": 12,
+      "name": "Photoshop",
+      "category": "Editing",
+      "level": 92
+    }
+  ],
+"experience": [
+    {
+      "id": 1,
+      "company": "MyTemplate Developers Group",
+      "position": "Co-Lead Project (Full Stack)",
+      "startDate": "2025-08",
+      "endDate": "null",
+      "current": true,
+      "description": "Led a full-stack team to design and develop the mytemplate e-commerce website, focusing on the sale of digital design assets (PPT, CV, books, etc.).",
+      "achievements": [
+        "Successfully launched the mytemplate e-commerce website with complete transaction and product catalog features.",
+        "Successfully managed a team consisting of 5 developers and designers.",
+        "Led the implementation of testing frameworks, resulting in a 40% improvement in code quality and stability.",
+        "Integrated a third-party payment system and ensured robust user data security."
+      ]
+    },
+    {
+      "id": 2,
+      "company": "UI/UX Design Team",
+      "position": "UI/UX Designer",
+      "startDate": "2025-08",
+      "endDate": "null",
+      "current": true,
+      "description": "Coordinated a small sub-team for an internship project focused on designing the User Interface (UI) for the Traveloka application. Responsible for facilitating communication between team members and senior developers.",
+      "achievements": [
+        "Successfully led the design of user-friendly UI prototypes for key Traveloka features.",
+        "Ensured that all UI designs were aligned with the established brand guideline principles.",
+        "Actively participated in design pitching sessions to senior mentors.",
+        "Educated fellow interns on the importance of version control in collaborative design projects."
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Python OOP Project",
+      "position": "Lead Dev",
+      "startDate": "2024-01",
+      "endDate": "2024-04",
+      "current": false,
+      "description": "Led the team in developing a To-Do List application using Object-Oriented Programming (OOP) principles with Python. Fully responsible for architectural design, task distribution, and team member mentoring.",
+      "achievements": [
+        "Successfully led the team to complete the Python OOP-based To-Do List project on time.",
+        "Established and ensured the implementation of strict OOP coding standards across the entire team.",
+        "Increased team work efficiency by implementing a weekly code review system.",
+        "Demonstrated the application to stakeholders and received positive feedback on the design quality."
+      ]
+    }
+  ] 
+}

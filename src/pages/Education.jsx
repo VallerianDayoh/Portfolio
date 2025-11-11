@@ -1,6 +1,15 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { FaGraduationCap } from "react-icons/fa"; // 🎓 React Icon
+import { FaGraduationCap } from "react-icons/fa"; 
+
+// Fungsi format tanggal dasar menjadi "Month Year"
+const formatSingleDate = (dateString) => {
+    const date = new Date(dateString);
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "short",
+    });
+};
 
 const Education = () => {
   const [education, setEducation] = useState([]);
@@ -18,13 +27,17 @@ const Education = () => {
     fetchEducation();
   }, []);
 
-  // Format tanggal menjadi "Month Year"
-  const formatDate = (dateString) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "short",
-    });
+  //  Format tanggal menjadi "Month Year" dan menangani "Current"
+  const formatDateRange = (startDateString, endDateString) => {
+    const formattedStart = formatSingleDate(startDateString);
+
+    // Cek jika endDateString adalah "null", null, atau string kosong
+    if (endDateString === "null" || endDateString === null || endDateString === "") {
+        return `${formattedStart} - Current`;
+    }
+    
+    const formattedEnd = formatSingleDate(endDateString);
+    return `${formattedStart} - ${formattedEnd}`;
   };
 
   return (
@@ -67,7 +80,7 @@ const Education = () => {
                           {edu.degree}
                         </h3>
                         <span className="text-sm font-medium text-blue-600 bg-blue-100 dark:bg-blue-900/30 px-3 py-1 rounded-full">
-                          {formatDate(edu.startDate)} - {formatDate(edu.endDate)}
+                          {formatDateRange(edu.startDate, edu.endDate)}
                         </span>
                       </div>
 

@@ -4,7 +4,7 @@
     "title": "Frontend-Developer",
     "tagline": "Crafting elegant solutions through code",
     "photo": "/profile.png",
-    "bio": "Passionate developer with 5+ years of experience in building scalable web applications. I love turning complex problems into simple, beautiful solutions.",
+    "bio": "A passionate computer science student who loves exploring web development and programming. I enjoy building creative, responsive, and functional projects using modern technologies like React, TailwindCSS, and Python. Always eager to learn and grow as a developer.",
     "location": "Airmadidi, Indonesia",
     "email": "valleriandayoh @gmail.com",
     "phone": "+62 858-2522-0451",
@@ -20,10 +20,10 @@
     {
       "id": 1,
       "institution": "Universitas Klabat",
-      "degree": "Bachelor of Computer Science",
+      "degree": "Bachelor of Computer Science (In Progress)",
       "field": "Information System",
       "startDate": "2023-08",
-      "endDate": "2027-04",
+      "endDate": "null",
       "gpa": "3.85/4.00",
       "description": "Focused on web development, data structures, and software architecture"
     },

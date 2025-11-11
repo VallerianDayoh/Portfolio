@@ -15,3 +15,6 @@ Proyek ini dibangun menggunakan teknologi berikut:
 - 💾 **JSON Server** – Simulasi backend untuk data dinamis  
 
 ---
+# Jalankan JSON Server (data dimuat dari db.json)
+json-server --watch db.json --port 3001
+⚠️ Pastikan JSON Server berjalan di http://localhost:3001

@@ -16,5 +16,6 @@ Proyek ini dibangun menggunakan teknologi berikut:
 
 ---
 # Jalankan JSON Server (data dimuat dari db.json)
-json-server --watch db.json --port 3001
+npx json-server --watch db.json --port 3001
+
 ⚠️ Pastikan JSON Server berjalan di http://localhost:3001

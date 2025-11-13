@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaPaperPlane } from "react-icons/fa";
 
+// Form
 const Contact = () => {
   const [profile, setProfile] = useState(null);
   const [formData, setFormData] = useState({

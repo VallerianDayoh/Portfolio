@@ -31,7 +31,7 @@ const Navbar = () => {
     }
   };
   
-  // 🔹 Menentukan warna teks berdasarkan keadaan scroll
+  // Menentukan warna teks berdasarkan keadaan scroll
   const textColor = isScrolled ? "text-gray-800 dark:text-gray-200" : "text-white";
 
   return (
@@ -46,7 +46,6 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto"> 
         
         {/* Kontainer Desktop/Logo/Hamburger */}
-        {/* ⚠️ PERUBAHAN: Hapus h-16 (mobile) dan ganti dengan py-3 untuk memberi ruang vertikal */}
         <div className="flex items-center justify-between md:h-20 px-6 py-4">
           
           {/* Logo / Profile Icon */}

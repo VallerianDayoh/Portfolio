@@ -30,7 +30,7 @@ const About = () => {
     });
   };
 
-  // Gunakan icon dari react-icons di tiap item
+  // Pake icon dari react-icons di tiap item
   const infoItems = [
     { icon: <FaMapMarkerAlt className="text-blue-600 text-xl" />, label: "Location", value: profile.location },
     { icon: <FaEnvelope className="text-blue-600 text-xl" />, label: "Email", value: profile.email },

@@ -137,7 +137,6 @@ const HomePage = () => {
           {/* Foto profil dengan efek glow */}
           <div
             className="flex-shrink-0 animate-fade-in-up"
-            style={{ animationDelay: "0.2s" }}
           >
             <div className="relative flex justify-center md:justify-end">
               {/* Efek blur cahaya di belakang foto */}

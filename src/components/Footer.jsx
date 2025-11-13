@@ -161,7 +161,6 @@ const Footer = () => {
           {/* Teks Credits (Made with React Js) */}
           <p className="text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1">
             Project Mid Kelas Front-End
-            {/* Tambahkan bagian credits yang terpotong di sini jika diperlukan, contoh: by User */}
           </p>
         </div>
       </div>

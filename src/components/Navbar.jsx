@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-// 🔹 Import FaBars (Hamburger) dan FaTimes (Close)
 import { FaUserCircle, FaBars, FaTimes } from "react-icons/fa"; 
 
 const Navbar = () => {

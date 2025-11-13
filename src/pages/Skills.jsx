@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-// ⚠️ PERUBAHAN: Menambahkan FaPencilAlt untuk kategori 'editing'
 import { FaCode, FaDatabase, FaTools, FaPalette, FaPencilAlt } from "react-icons/fa";
 
 const Skills = () => {

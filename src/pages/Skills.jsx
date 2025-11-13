@@ -28,7 +28,6 @@ const Skills = () => {
         return <FaDatabase className="text-green-600 text-2xl" />;
       case "tools":
         return <FaTools className="text-yellow-600 text-2xl" />;
-      // ⚠️ Kategori BARU: EDITING
       case "editing":
         return <FaPencilAlt className="text-red-600 text-2xl" />; // Menggunakan FaPencilAlt dengan warna merah
       default:
